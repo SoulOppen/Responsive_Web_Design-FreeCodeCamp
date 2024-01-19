@@ -1,0 +1,10 @@
+body{
+    display:flex;  
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:95vh;  
+}
+  #nav-bar{
+    position:fixed;
+    top:0;
+  }

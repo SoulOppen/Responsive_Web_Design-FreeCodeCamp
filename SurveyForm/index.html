@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<link rel="stylesheet" href="styles.css">
+<title>My Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">We need your help with some questions</p>
+  </body>
+  <form id="survey-form">
+    <label for="name" id="name-label",>Name: <input type="text" id="name" placeholder="your name" required/></label>
+    <label for="email" id="email-label">Email:<input type="email" id="email" placeholder="your email"  required/></label>
+    <label for="number" id="number-label">Number: <input type="number" id="number" min="2" max="10"  placeholder="a number between 2-10"/></label>
+    <label for="dropdown">Color<select id="dropdown">
+      <option value="azul">Azul</option>
+      <option value="verde">Verde</option>
+    </select></label>
+    <fieldset>
+      <legend>Your car is...</legend>
+     <label for="fast"><input id="fast" type="radio" value="fast" name="velocity" checked/>fast</label>
+      <label for="slow"><input id="slow" type="radio" value="slow" name="velocity"/>slow</label> 
+      </fieldset>
+    <fieldset>
+      <legend>do you like...</legend>
+      <label for="hot-dog"><input id="hot-dog" type="checkbox" value="hot-dog"  />Hot-dog</label>
+      <label for="cold-beer"><input id="cold-beer" type="checkbox" value="cold-beer"/>Cold beer</label>
+    </fieldset>
+    <textarea> 
+    </textarea>
+    <button id="submit">click</button>
+  </form>
+</html>

@@ -1,0 +1,22 @@
+*{
+    box-sizing:border-box;
+  }
+  header{  text-align:center;
+  padding:2px
+  }
+  main{
+    width:min(500px,100vw);
+    margin: 0 auto;
+  }
+  img{ 
+    display:block; 
+    margin: 0 auto;
+    height:auto;
+    max-width:100%;  
+  }
+  figure{
+    text-align:center;
+  }
+  li{
+    list-style:none;
+  }
